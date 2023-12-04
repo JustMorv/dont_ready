@@ -6,16 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="img/icon.png" href="img/icon.png" size="30">
-    <link rel="stylesheet" href="fontawesome/css/all.css">
     <link rel="stylesheet" href="js/plagins/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="js/plagins/aos/aos.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
 
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/gridTemplete.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Waildberis</title>
+    <title>JustPizza</title>
 </head>
 
 <body class="body__site " id="body">
@@ -23,26 +20,26 @@
         <header class="header" id="header">
             <div class="header__container">
                 <div class="header__logo_conteiner">
-                    <a class="header__logo" href="index.html"> WaildberiS </a>
+                    <h1 class="header__logo" href="index.html"> JustPizza </h1>
+                    <!-- <h1 class="gradient-text">JustPizza</h1> -->
                     <section class="header_logo-right">
                         <div class="header-accout">
                             <a href="" class="header-accout-user">
-                            <i class="fa-solid fa-user"></i>
-                             <p>Ввойти</p>
-                             </a>
-                         </div>
-                         <div class="header-basket">
-                             <a href="" class="header-basket-item"> 
-                                 <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                                 <p>Корзина</p>
+                                <p>Ввойти</p>
                             </a>
-                         </div>
+                        </div>
+                        <div class="header-basket">
+                            <a href="" class="header-basket-item">
+                                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                <p>Корзина</p>
+                            </a>
+                        </div>
                     </section>
                 </div>
                 <div class="header-content">
                     <div class="hamburger-menu">
                         <input id="menu__toggle" type="checkbox" />
-                        <label class="menu__btn" for="menu__toggle" >
+                        <label class="menu__btn" for="menu__toggle">
                             <span></span>
                             <span></span>
                             <span></span>
@@ -86,26 +83,25 @@
                             </li>
 
                         </ul>
-                    </div>   
+                    </div>
                     <div class="header-search">
                         <div class="header-search-content">
                             <input type="search">
                         </div>
-                    </div>  
+                    </div>
                 </div>
-             
+
             </div>
 
         </header>
         <main class="main">
             <div class="main__container">
-               <!-- Slider main container -->
+                <!-- Slider main container -->
                 <div class="swiper-container">
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide swiper-item-1">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis est quos doloremque dolorem odit! Inventore iste quasi natus, perspiciatis rerum rem, doloremque numquam temporibus eum soluta distinctio ullam laudantium atque.</p>
                         </div>
                         <div class="swiper-slide swiper-item-2">
                         </div>
@@ -115,452 +111,64 @@
                         </div>
                     </div>
                     <!-- If we need navigation buttons -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+
+                <section class="section_swiper">
+                    <div class="title__content">
+                        <h1 id="productsCard__news">Часто Заказывают</h1>
                     </div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper swiper_grid">
+                            <div class="swiper-slide">
+                                <img src="img/slider/article_1.webp" alt="">
+                                <div class="swiper-slide-text">
+                                    <strong>Какао</strong> <br><br> от 700тг.
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/slider/article_2.webp" alt="">
+                                <div class="swiper-slide-text">
+                                    <strong>Трюфельная</strong> <br><br> от 2 000тг.
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/slider/article_3.webp" alt="">
+                                <div class="swiper-slide-text">
+                                    <strong>Карамельное яблоко молочный коктейль </strong><br><br> от 1 500тг
 
-
-
-                  <section class="main-container-content">
-
-                    
-                    <section class="special-offers container pt-5 pb-4">
-                        <div class="row mb-4">
-                            <div class="col-xl-6" data-aos="fade-right" data-aos-once="true">
-                                <div class="card card-1 ">
-                                    <h3 class="card-title">Fashion Month Ready in Capital Shop</h3>
-                                    <p class="card-text">Bags & Acsessories & Lingerie & Sportswear & Beauty & Swimwear</p>
-                                    <button class="button show-acsessuaries scroll-link">
-                                        <span class="button-text">View all</span>
-                                    </button>
-                                </div>
-                
-                            </div>
-                
-                            <div class="col-xl-6">
-                                <div class="card card-2 mb-4" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">
-                                    <h3 class="card-title text-light">Catch the Sun: Spring Break Styles From $5.99</h3>
-                                    <p class="card-text text-light">Sweaters & Hoodies & Puffer Jackets & Coats and Jackets & Knit</p>
-                                    <button class="button show-clothing scroll-link ">
-                                        <span class="button-text">View all</span>
-                                    </button>
-                                </div>
-                
-                            </div>
-                
-                            <div class="col-xl-9 col-lg-6 mb-4">
-                                <div class="card card-3" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
-                                    <h3 class="card-title large" >Poplin Top <br>With Sleeve Bow</h3>
-                                    <p class="card-text large">Poplin top with roll neckline, long sleeves</p>
-                                    <button class="button add-to-cart" data-id="002">
-                                        <span class="button-price">$129</span>
-                                        <span class="button-text">Shop now</span>
-                                    </button>
-                                </div>
-                
-                            </div>
-                            <div class="col-xl-3 col-lg-6">
-                                <div class="card card-4" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true">
-                                    <h3 class="card-title card-title-4 text-light mw-160">Printed Shirt with a Bow</h3>
-                                    <p class="card-text text-light">Pink/Sky Blue/Yellow</p>
-                                    <button class="button add-to-cart button-four" data-id="009">
-                                        <span class="button-price">$119</span>
-                                        <span class="button-text">Shop now</span>
-                                    </button>
-                                </div>
-                
-                            </div>
-                
-                        </div>
-                 
-                    </section>
-              
-
-                  
-                    <section class="product-hits--container">
-                        <div class="product-hits-title">
-                            <p>Хиты продаж</p>
-                        </div>
-                        <div class="product-hits">
-            
-                            <div class="product__cart">
-                                <div class="product_container">
-                                   <div class="product_img">
-                                       <img src="img/product/001-1.png" alt="">
-                                   </div>
-                                   <div class="product_name">
-                                       <p>Wrangler / Джинсы </p>
-                                   </div>
-                                   <div class="product_price">
-                                       <p>12000 тг</p>
-                                   </div>
-                                   <div class="product_btns">
-                                       <buttton class="product_carts">В корзину</buttton>
-                                       <buttton class="product_show">Осмотр</buttton>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="product__cart">
-                                <div class="product_container">
-                                    <div class="product_img">
-                                        <img src="img/product/001-1.png" alt="">
-                                    </div>
-                                    <div class="product_name">
-                                        <p>Wrangler / Джинсы </p>
-                                    </div>
-                                    <div class="product_price">
-                                        <p>12000 тг</p>
-                                    </div>
-                                    <div class="product_btns">
-                                        <buttton class="product_carts">В корзину</buttton>
-                                        <buttton class="product_show">Осмотр</buttton>
-                                    </div>
                                 </div>
                             </div>
-                            <div class="product__cart">
-                                <div class="product_container">
-                                   <div class="product_img">
-                                       <img src="img/product/001-1.png" alt="">
-                                   </div>
-                                   <div class="product_name">
-                                       <p>Wrangler / Джинсы </p>
-                                   </div>
-                                   <div class="product_price">
-                                       <p>12000 тг</p>
-                                   </div>
-                                   <div class="product_btns">
-                                       <buttton class="product_carts">В корзину</buttton>
-                                       <buttton class="product_show">Осмотр</buttton>
-                                   </div>
-                               </div>
-                           </div>
-                            <div class="product__cart">
-                                 <div class="product_container">
-                                    <div class="product_img">
-                                        <img src="img/product/001-1.png" alt="">
-                                    </div>
-                                    <div class="product_name">
-                                        <p>Wrangler / Джинсы </p>
-                                    </div>
-                                    <div class="product_price">
-                                        <p>12000 тг</p>
-                                    </div>
-                                    <div class="product_btns">
-                                        <buttton class="product_carts">В корзину</buttton>
-                                        <buttton class="product_show">Осмотр</buttton>
-                                    </div>
-                                </div>
-                            </div>
-                             <div class="product__cart">
-                                 <div class="product_container">
-                                    <div class="product_img">
-                                        <img src="img/product/001-1.png" alt="">
-                                    </div>
-                                    <div class="product_name">
-                                        <p>Wrangler / Джинсы </p>
-                                    </div>
-                                    <div class="product_price">
-                                        <p>12000 тг</p>
-                                    </div>
-                                    <div class="product_btns">
-                                        <buttton class="product_carts">В корзину</buttton>
-                                        <buttton class="product_show">Осмотр</buttton>
-                                    </div>
-                                </div>
-                            </div>
-                             <div class="product__cart">
-                                 <div class="product_container">
-                                    <div class="product_img">
-                                        <img src="img/product/001-1.png" alt="">
-                                    </div>
-                                    <div class="product_name">
-                                        <p>Wrangler / Джинсы </p>
-                                    </div>
-                                    <div class="product_price">
-                                        <p>12000 тг</p>
-                                    </div>
-                                    <div class="product_btns">
-                                        <buttton class="product_carts">В корзину</buttton>
-                                        <buttton class="product_show">Осмотр</buttton>
-                                    </div>
-                                </div>
-                            </div>
-                       
-                        </div>
-                    </section>
-                 
-
-                    <section class="main-article">
-                        <div class="main-article-content" >
-                            <div class="main-article-item">
-                                <a href="#" class="main-article-link">
-                                    <img src="img/article/$_1.jpg" alt="">
-                                    <p class="main-article-text main-article-left">Мужские рубашки</p>
-                                </a>
-                            </div>
-                            <div class="main-article-item" >
-                              <a href="#" class="main-article-link" >
-                                  <img src="img/article/$_2.jpg" alt="">
-                                  <p class="main-article-text main-article-right">Женские платья</p>
-                              </a>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="product-hits">
-                        <div class="product__cart">
-                            <div class="product_container">
-                               <div class="product_img">
-                                   <img src="img/product/001-1.png" alt="">
-                               </div>
-                               <div class="product_name">
-                                   <p>Wrangler / Джинсы </p>
-                               </div>
-                               <div class="product_price">
-                                   <p>12000 тг</p>
-                               </div>
-                               <div class="product_btns">
-                                   <buttton class="product_carts">В корзину</buttton>
-                                   <buttton class="product_show">Осмотр</buttton>
-                               </div>
-                           </div>
-                       </div>
-                       <div class="product__cart">
-                            <div class="product_container">
-                                <div class="product_img">
-                                    <img src="img/product/001-1.png" alt="">
-                                </div>
-                                <div class="product_name">
-                                    <p>Wrangler / Джинсы </p>
-                                </div>
-                                <div class="product_price">
-                                    <p>12000 тг</p>
-                                </div>
-                                <div class="product_btns">
-                                    <buttton class="product_carts">В корзину</buttton>
-                                    <buttton class="product_show">Осмотр</buttton>
+                            <div class="swiper-slide">
+                                <img src="img/slider/article_4.webp" alt="">
+                                <div class="swiper-slide-text">
+                                    <strong>Банановый молочный коктейль</strong> <br><br> от 1 600тг.
                                 </div>
                             </div>
                         </div>
-                        <div class="product__cart">
-                            <div class="product_container">
-                               <div class="product_img">
-                                   <img src="img/product/001-1.png" alt="">
-                               </div>
-                               <div class="product_name">
-                                   <p>Wrangler / Джинсы </p>
-                               </div>
-                               <div class="product_price">
-                                   <p>12000 тг</p>
-                               </div>
-                               <div class="product_btns">
-                                   <buttton class="product_carts">В корзину</buttton>
-                                   <buttton class="product_show">Осмотр</buttton>
-                               </div>
-                           </div>
-                       </div>
-                        <div class="product__cart">
-                             <div class="product_container">
-                                <div class="product_img">
-                                    <img src="img/product/001-1.png" alt="">
-                                </div>
-                                <div class="product_name">
-                                    <p>Wrangler / Джинсы </p>
-                                </div>
-                                <div class="product_price">
-                                    <p>12000 тг</p>
-                                </div>
-                                <div class="product_btns">
-                                    <buttton class="product_carts">В корзину</buttton>
-                                    <buttton class="product_show">Осмотр</buttton>
-                                </div>
-                            </div>
-                        </div>
-                         <div class="product__cart">
-                             <div class="product_container">
-                                <div class="product_img">
-                                    <img src="img/product/001-1.png" alt="">
-                                </div>
-                                <div class="product_name">
-                                    <p>Wrangler / Джинсы </p>
-                                </div>
-                                <div class="product_price">
-                                    <p>12000 тг</p>
-                                </div>
-                                <div class="product_btns">
-                                    <buttton class="product_carts">В корзину</buttton>
-                                    <buttton class="product_show">Осмотр</buttton>
-                                </div>
-                            </div>
-                        </div>
-                         <div class="product__cart">
-                             <div class="product_container">
-                                <div class="product_img">
-                                    <img src="img/product/001-1.png" alt="">
-                                </div>
-                                <div class="product_name">
-                                    <p>Wrangler / Джинсы </p>
-                                </div>
-                                <div class="product_price">
-                                    <p>12000 тг</p>
-                                </div>
-                                <div class="product_btns">
-                                    <buttton class="product_carts">В корзину</buttton>
-                                    <buttton class="product_show">Осмотр</buttton>
-                                </div>
-                            </div>
-                        </div>
-                   
-                    </section>
-                    
-                    <section class="product-hits">
-                       
-                        <div class="product__cart">
-                            <div class="product_container">
-                               <div class="product_img">
-                                   <img src="img/product/001-1.png" alt="">
-                               </div>
-                               <div class="product_name">
-                                   <p>Wrangler / Джинсы </p>
-                               </div>
-                               <div class="product_price">
-                                   <p>12000 тг</p>
-                               </div>
-                               <div class="product_btns">
-                                   <buttton class="product_carts">В корзину</buttton>
-                                   <buttton class="product_show">Осмотр</buttton>
-                               </div>
-                           </div>
-                       </div>
-                       <div class="product__cart">
-                            <div class="product_container">
-                                <div class="product_img">
-                                    <img src="img/product/001-1.png" alt="">
-                                </div>
-                                <div class="product_name">
-                                    <p>Wrangler / Джинсы </p>
-                                </div>
-                                <div class="product_price">
-                                    <p>12000 тг</p>
-                                </div>
-                                <div class="product_btns">
-                                    <buttton class="product_carts">В корзину</buttton>
-                                    <buttton class="product_show">Осмотр</buttton>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product__cart">
-                            <div class="product_container">
-                               <div class="product_img">
-                                   <img src="img/product/001-1.png" alt="">
-                               </div>
-                               <div class="product_name">
-                                   <p>Wrangler / Джинсы </p>
-                               </div>
-                               <div class="product_price">
-                                   <p>12000 тг</p>
-                               </div>
-                               <div class="product_btns">
-                                   <buttton class="product_carts">В корзину</buttton>
-                                   <buttton class="product_show">Осмотр</buttton>
-                               </div>
-                           </div>
-                       </div>
-                        <div class="product__cart">
-                             <div class="product_container">
-                                <div class="product_img">
-                                    <img src="img/product/001-1.png" alt="">
-                                </div>
-                                <div class="product_name">
-                                    <p>Wrangler / Джинсы </p>
-                                </div>
-                                <div class="product_price">
-                                    <p>12000 тг</p>
-                                </div>
-                                <div class="product_btns">
-                                    <buttton class="product_carts">В корзину</buttton>
-                                    <buttton class="product_show">Осмотр</buttton>
-                                </div>
-                            </div>
-                        </div>
-                         <div class="product__cart">
-                             <div class="product_container">
-                                <div class="product_img">
-                                    <img src="img/product/001-1.png" alt="">
-                                </div>
-                                <div class="product_name">
-                                    <p>Wrangler / Джинсы </p>
-                                </div>
-                                <div class="product_price">
-                                    <p>12000 тг</p>
-                                </div>
-                                <div class="product_btns">
-                                    <buttton class="product_carts">В корзину</buttton>
-                                    <buttton class="product_show">Осмотр</buttton>
-                                </div>
-                            </div>
-                        </div>
-                         <div class="product__cart">
-                             <div class="product_container">
-                                <div class="product_img">
-                                    <img src="img/product/001-1.png" alt="">
-                                </div>
-                                <div class="product_name">
-                                    <p>Wrangler / Джинсы </p>
-                                </div>
-                                <div class="product_price">
-                                    <p>12000 тг</p>
-                                </div>
-                                <div class="product_btns">
-                                    <buttton class="product_carts">В корзину</buttton>
-                                    <buttton class="product_show">Осмотр</buttton>
-                                </div>
-                            </div>
-                        </div>
-                   
-                    </section>
-               
-                    
-                    <section class="main-article-2">
-                        <div class="main-article-items">
-                            <a href="#">
-                                <img src="/img/article/arc1-1.jpeg" alt="">
-                                <p class="main-article-2-text"> 
-                                    зимнии толстовки
-                                </p>
-                            </a>
-                        </div>
-                        <div class="main-article-items">
-                            <a href="">
-                                <img src="/img/article/arc2.webp" alt="">
-                                <p class="main-article-2-text"> 
-                                    Колтюмы  
-                                </p>
-                            </a>
-                        </div>
-                        <div class="main-article-items">
-                            <img src="/img/article/arc3.jpeg" alt="">
-                            <p class="main-article-2-text"> 
-                                Кофты  
-                            </p>
-    
-                        </div>
-                    </section>
+                        <!-- <div class="swiper-pagination"></div> -->
+                    </div>
                 </section>
-                   
-                     
-               
 
-             <!-- main__content -->
+                <section class="section__container">
+                    <div class="title__content">
+                        <h1 id="productsCard__news">Пиццы</h1>
+                    </div>
+                    <div class="productsCard"></div>
+                </section>
+
+                <!-- main__content -->
 
             </div>
 
         </main>
-         <footer class="footer" id="footer">
+        <footer class="footer" id="footer">
 
             <div class="footer__content">
 
                 <div class="footer__rows">
-                     <nav class="footer__menu">
+                    <nav class="footer__menu">
                         <ul class="footer__link">
                             <li class="footer__item">
                                 <a href="">shop</a>
@@ -575,7 +183,7 @@
                                 <a href="">Delivery </a>
                             </li>
                         </ul>
-                    </nav> 
+                    </nav>
                     <div class="siteContacts">
                         <span class="footer__text">Follow Us</span>
                         <span class="footer__socials">
@@ -597,7 +205,6 @@
                         <div class="footer__top-link">
                             <a href="#header">
                                 <span>Top</span>
-                                <img src="img/slider/top.svg" alt="">
                             </a>
                         </div>
                     </div>
@@ -637,10 +244,10 @@
                         </div>
                     </div>
                 </div>
-
             </div>
+
         </footer>
-      
+
 
 
 
@@ -652,18 +259,15 @@
         <script src="js/plagins/modal/modal.js" defer></script>
 
         <!----------------- HeaderFixed ------------------->
-        <script src="js/plagins/smooth/smoth.js" defer></script>    
-        
-        <!----------------- AOS ------------------->
-        <script src="js/plagins/aos/aos.js" defer></script>
+        <script src="js/plagins/smooth/smoth.js" defer></script>
 
-            
+
+
         <!----------------- Accardion  ------------------->
-        <script src="js/plagins/accardion/accardion.js" defer></script>    
-            
+        <script src="js/plagins/accardion/accardion.js" defer></script>
+        <script src="db/db.js" defer></script>
+
         <script src="js/index.js" defer></script>
-
-
 
 </body>
 
