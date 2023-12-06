@@ -1062,6 +1062,10 @@ tr:nth-child(even) {
 
 
 @media screen and (max-width: 620px) {
+  .modal{
+    z-index: 1000;
+  }
+
   .header-search input{
       margin-left: 60px;
       width: 90%;
@@ -1170,6 +1174,12 @@ tr:nth-child(even) {
   .productsCard{
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .headerFixed{
+    z-index: 2;
+  }
+  .modal__dialog-header, .modal__dialog-body, .modal__dialog-footer{
+    padding: 5px 10px;
   }
   .footer__menu{
     display: none;
