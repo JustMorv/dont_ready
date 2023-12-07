@@ -1189,7 +1189,7 @@ tr:nth-child(even) {
   }
   .header-search input {
     margin-left: 70px;
-    width: 80%;
+    width: 70%;
 }
 .header_logo-right{
   display: none;
