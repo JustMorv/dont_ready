@@ -9,9 +9,10 @@ window.addEventListener("scroll",headerScroll)
 function headerScroll (){
   if(window.pageYOffset > headerFixed + 90){
     header.classList.add("headerFixed")
-    headerLogo.style.display = "none"
+
+    headerLogo.classList.add("display");
   }else{
     header.classList.remove("headerFixed")
-    headerLogo.style.display = "flex"
+    headerLogo.classList.remove("display");
   }
 }

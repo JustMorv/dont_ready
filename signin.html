@@ -77,67 +77,22 @@
         </header>
         <main class="main">
             <div class="main__container">
-                <!-- Slider main container -->
-                <div class="swiper-container">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide swiper-item-1">
-                        </div>
-                        <div class="swiper-slide swiper-item-2">
-                        </div>
-                        <div class="swiper-slide swiper-item-3">
-                        </div>
-                        <div class="swiper-slide swiper-item-4">
-                        </div>
-                    </div>
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-                </div>
+                <form action="action_page.php">
+                    <div class="container-register ">
+                        <h1>Авторизация</h1>
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" required>
 
-                <section class="section_swiper">
-                    <div class="title__content">
-                        <h1 id="productsCard__news">Часто Заказывают</h1>
-                    </div>
-                    <div class="swiper mySwiper">
-                        <div class="swiper-wrapper swiper_grid">
-                            <div class="swiper-slide">
-                                <img src="img/slider/article_1.webp" alt="">
-                                <div class="swiper-slide-text">
-                                    <strong>Какао</strong> <br><br> от 700тг.
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/slider/article_2.webp" alt="">
-                                <div class="swiper-slide-text">
-                                    <strong>Трюфельная</strong> <br><br> от 2 000тг.
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/slider/article_3.webp" alt="">
-                                <div class="swiper-slide-text">
-                                    <strong>Карамельное яблоко молочный коктейль </strong><br><br> от 1 500тг
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
 
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/slider/article_4.webp" alt="">
-                                <div class="swiper-slide-text">
-                                    <strong>Банановый молочный коктейль</strong> <br><br> от 1 600тг.
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <div class="swiper-pagination"></div> -->
+                        <button type="submit" class="registerbtn">Авторизоваться</button>
                     </div>
-                </section>
 
-                <section class="section__container">
-                    <div class="title__content">
-                        <h1 id="productsCard__news">Пиццы</h1>
+                    <div class="container signin">
+                        <p>нет аккаунта <a href="register.html">Зарегестрироваться </a>.</p>
                     </div>
-                    <div class="productsCard"></div>
-                </section>
+                </form>
 
                 <!-- main__content -->
 
@@ -336,7 +291,7 @@
         <script src="db/db.js" defer></script>
 
         <script src="js/index.js" defer></script>
-        
+
 
 </body>
 
