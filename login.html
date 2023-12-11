@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="shortcut icon" href="images/logo.png">
+
+    <meta name="author" content="colorlib">
+
+    <meta name="description" content="">
+
+    <meta name="keywords" content="">
+
+    <title>News</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body style="display: block;">
+    <header>
+        <div class="logo-wrap">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-4 col-md-4 col-sm-12 logo-left no-padding">
+                        <a href="onePost.html">
+                            <img class="img-fluid" src="images/news2.jpg" alt="" width="200px" height="100px">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container main-menu" id="main-menu">
+            <button type="button" class="mobile-nav-toggle" id="mobile-nav-toggle">
+                <span class="menu-title">Menu</span>
+            </button>
+            <div class="row align-items-center justify-content-between">
+                <nav id="nav-menu-container">
+                    <ul class="nav-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
+                        <li class="menu-active"><a href="index.html">Главная</a></li>
+                        <li><a href="posts.html">Статьи</a></li>
+                        <li><a href="coments.html">комментарий</a></li>
+                        <li><a href="login.html">ВОЙТИ</a></li>
+                    </ul>
+                </nav>
+                <div class="navbar-right">
+                    <form class="Search">
+                        <input type="text" class="form-control Search-box" name="Search-box" id="Search-box"
+                            placeholder="Search">
+                        <label for="Search-box" class="Search-box-label">
+                            <i class="fa fa-search" aria-hidden="true" style="color: aliceblue; font-size: 25px;"> </i>
+                        </label>
+                        <span class="Search-close">
+                            <span class="lnr lnr-cross"></span>
+                        </span>
+                    </form>
+                </div>
+            </div>
+            <nav class="mobile-nav mobile-nav-active">
+                <ul class="" id="">
+                    <li class="menu-active"><a href="index.html">Главная</a></li>
+                    <li><a href="posts.html">Статьи</a></li>
+                    <li><a href="coments.html">комментарий</a></li>
+                    <li><a href="login.html">ВОЙТИ</a></li>
+                </ul>
+            </nav>
+            <div id="mobile-body-overly"></div>
+        </div>
+    </header>
+    <div class="site-main-container  ">
+        <section class="top-post-area pt-10 main-container">
+            <div class="container no-padding">
+                <div class="row small-gutters">
+                    <div class="col auth-form">
+                        <h1 class="text-center">Авторизация на сайте</h1>
+                        <div class="inp">
+                            <form class="regisrration" action="form.php" method="post">
+                                <input class="log" type="text" required name="login" placeholder="Ведите логин">
+                                <input class="pass" type="password" required name="password" placeholder="Ведите пароль">
+                                <div class="info">
+                                    <a href="register.html">у меня нет аккаунта</a>
+                                </div>
+                                <input class="btn" type="submit" value="ВОЙТИ">
+                               
+                                <div class="footer-bottom row align-items-center">
+                                    <p class="footer-text m-0 col-lg-8 col-md-12">
+                                        Войти через |
+                                    </p>
+                                    <div class="col-lg-4 col-md-12 footer-social">
+                                        <a href="onePost.html"><i class="fa fa-facebook"></i></a>
+                                        <a href="onePost.html"><i class="fa fa-vk"></i></a>
+                                        <a href="onePost.html"><i class="fa fa-google"></i></a>
+                                        <a href="onePost.html"><i class="fa fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="footer-area section-gap">
+        <div class="container">
+            <div class="footer-bottom row align-items-center">
+                <p class="footer-text m-0 col-lg-8 col-md-12">
+                    2023 Все права защищены |
+                </p>
+                <div class="col-lg-4 col-md-12 footer-social">
+                    <a href="onePost.html"><i class="fa fa-facebook"></i></a>
+                    <a href="onePost.html"><i class="fa fa-twitter"></i></a>
+                    <a href="onePost.html"><i class="fa fa-google"></i></a>
+                    <a href="onePost.html"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
